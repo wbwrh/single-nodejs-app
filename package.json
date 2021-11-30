@@ -1,7 +1,7 @@
 {
-  "name": "nodes app",
+  "name": "single-nodejs-app",
   "version": "1.0.0",
-  "description": "Simple Node App",
+  "description": "This application has a simple dockerfile which containers node.js web server.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jduimovich/simple-nodejs-app.git"
+    "url": "git+https://github.com/jduimovich/single-nodejs-app"
   },
   "author": "",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/jduimovich/simple-nodejs-app/issues"
+    "url": "https://github.com/jduimovich/single-nodejs-app/issues"
   },
-  "homepage": "https://github.com/jduimovich/simple-nodejs-app",
+  "homepage": "https://github.com/jduimovich/single-nodejs-app",
   "dependencies": {
     "express": "^4.17.1"
   }
