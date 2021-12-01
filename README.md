@@ -12,6 +12,8 @@ Try it out by cloning `https://github.com/redhat-appstudio/infra-deployments.git
 | 1.  Bootstrap your cluster    |  hack/bootstrap.sh    |
 | 2.  Create project for your pipelines execution. This can be run as any non-admin user (or admin)    |  oc new-project demo     |  
 | 3.  Run a build on this repo. |  hack/build/build.sh  https://github.com/jduimovich/single-nodejs-app       |
-| 4.  View your build on the OpenShift Console under the pipelines page or view the logs via CLI. |  `tkn.exe pipelinerun logs`      |
+| 4.  View your build on the OpenShift Console under the pipelines page or view the logs via CLI. |  `tkn.exe pipelinerun logs`   
+
+|
  
 
